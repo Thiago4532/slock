@@ -563,3 +563,4 @@ main(int argc, char **argv) {
 	XCloseDisplay(dpy);
 	return 0;
 }
+// vim: set noet ts=4 sts=0 sw=4:
