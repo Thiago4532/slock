@@ -29,6 +29,8 @@ Patches
 
 [DPMS](https://tools.suckless.org/slock/patches/dpms/)
 
+[Control Clear](https://tools.suckless.org/slock/patches/control-clear/)
+
 Customization
 -------------
 Colors: based on [gruvbox-material](https://github.com/sainnhe/gruvbox-material)

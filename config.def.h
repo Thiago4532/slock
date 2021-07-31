@@ -14,6 +14,9 @@ static const int failonclear = 1;
 /* time in seconds before the monitor shuts down */
 static const int monitortime = 10;
 
+/* allow control key to trigger fail on clear */
+static const int controlkeyclear = 1;
+
 /* insert grid pattern with scale 1:1, the size can be changed with logosize */
 static const int logosize = 75;
 /* grid width and height for right center alignment */
