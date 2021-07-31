@@ -211,7 +211,7 @@ readpw(Display *dpy, struct xrandr *rr, struct lock **locks, int nscreens,
 			case XF86XK_AudioMicMute:
 			case XF86XK_MonBrightnessDown:
 			case XF86XK_MonBrightnessUp:
-				XSendEvent(dpy, DefaultRootWindow(dpy), True, KeyPressMask, &ev);
+				XSendEvent(dpy, DefaultRootWindow(dpy), True, ButtonPressMask, &ev);
 				break;
 			case XK_Return:
 				passwd[len] = '\0';
