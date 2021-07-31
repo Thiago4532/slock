@@ -12,7 +12,7 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 1;
 
 /* time in seconds before the monitor shuts down */
-static const int monitortime = 5;
+static const int monitortime = 10;
 
 /* insert grid pattern with scale 1:1, the size can be changed with logosize */
 static const int logosize = 75;
@@ -20,7 +20,7 @@ static const int logosize = 75;
 static const int logow = 12;
 static const int logoh = 6;
 
-static XRectangle rectangles[9] = {
+static XRectangle rectangles[] = {
 	/* x    y       w       h */
 	{ 0,    3,      1,      3 },
 	{ 1,    3,      2,      1 },
