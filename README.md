@@ -26,6 +26,7 @@ Simply invoke the 'slock' command. To get out of it, enter your password.
 Patches
 -------
 [Foreground or Background](https://tools.suckless.org/slock/patches/foreground-and-background/)
+
 [DPMS](https://tools.suckless.org/slock/patches/dpms/)
 
 Customization
